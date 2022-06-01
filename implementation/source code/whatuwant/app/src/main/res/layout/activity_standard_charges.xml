@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".StandardCharges">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/sc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electrician                                        Rs. 100"
+            android:textSize="16dp"
+            android:layout_below="@id/h8"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/sc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plumber                                            Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc1"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driver                                                 Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc2"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carpenter                                         Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc3"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BabySitter                                        Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc4"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Painter                                              Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc5"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tutor                                                 Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc6"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guard                                                Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc7"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ac Electrician                                  Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc8"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ComputerOperator                         Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc9"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dumper                                             Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc10"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="InteriorDesigner                              Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc11"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mason                                               Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc12"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sc14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SoftwareInstaller                            Rs. 100"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/sc13"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/h8"
+            android:text="This is standard charge of visiting our worker it will be further adjust in total amount after service. "
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</ScrollView>

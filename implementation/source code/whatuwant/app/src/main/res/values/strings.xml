@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">wuw-what u want</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="slide_1_title">Why Should You Choose us ?</string>
+    <string name="slide_1_decription">later</string>
+
+    <string name="slide_2_title">Why Should You Choose us</string>
+    <string name="slide_2_decription">later</string>
+
+    <string name="slide_3_title">Why Should You Choose us</string>
+    <string name="slide_3_decription">later</string>
+
+    <string name="slide_4_title">Why Should You Choose us</string>
+    <string name="slide_4_decription">later</string>
+
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
+</resources>

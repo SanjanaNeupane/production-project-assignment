@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wuw-what u want is the online service platform where customer can hire any worker from this platform.\n
+wuw provide good service to their customer on cheap rate and on time.\n
+wuw aim is to solve the problem of their customer in 3 simple step and provide trained worker to their customer.\n\n\nso lets participate to make digital world !
+"
+        android:textSize="28dp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/background_dark"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+</RelativeLayout>

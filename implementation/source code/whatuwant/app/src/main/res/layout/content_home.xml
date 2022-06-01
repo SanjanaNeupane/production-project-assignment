@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@android:color/background_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="What You Want ?"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="492dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/electrician"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/electrician" />
+
+            <TextView
+                android:id="@+id/txtelectrician"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:textColor="@android:color/background_dark"
+                android:text="Electrician"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnelectrician"
+                android:layout_width="100dp"
+                android:background="@drawable/buttons"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtelectrician"
+                android:layout_marginLeft="278dp"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/plumber"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/electrician"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/plumber" />
+
+            <TextView
+                android:id="@+id/txtplumber"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:textColor="@android:color/background_dark"
+
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="120dp"
+                android:text="Plumber"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnplumer"
+                android:background="@drawable/buttons"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtplumber"
+                android:layout_marginLeft="278dp"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/driver"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/plumber"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/driver" />
+
+            <TextView
+                android:id="@+id/txtdriver"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:textColor="@android:color/background_dark"
+
+                android:layout_marginTop="240dp"
+                android:text="Driver"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:background="@drawable/buttons"
+                android:id="@+id/btndriver"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtdriver"
+                android:layout_marginLeft="278dp"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/carpenter"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/driver"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/carpenter" />
+
+            <TextView
+                android:id="@+id/txtcarpenter"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="360dp"
+                android:text="Carpenter"
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btncarpenter"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtcarpenter"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/buttons"
+                android:text="Hire" />
+
+
+            <ImageView
+                android:id="@+id/babysitter"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/carpenter"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/babysitter" />
+
+            <TextView
+                android:id="@+id/txtbabysitter"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginTop="480dp"
+                android:text="Babysitter"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnbabysitter"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtbabysitter"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/buttons"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/painter"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/babysitter"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/painter" />
+
+            <TextView
+                android:id="@+id/txtpainter"
+                android:layout_width="200dp"
+                android:textColor="@android:color/background_dark"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="600dp"
+                android:text="Painter"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnpainter"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtpainter"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/buttons"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/tutor"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/painter"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tutor" />
+
+            <TextView
+                android:id="@+id/txttutor"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="720dp"
+                android:text="Tutor"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btntutor"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txttutor"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/buttons"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/guard"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/tutor"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/guard" />
+
+            <TextView
+                android:id="@+id/txtguard"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="840dp"
+                android:text="Guard"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnguard"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttons"
+                android:layout_below="@+id/txtguard"
+                android:layout_marginLeft="278dp"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/AcElectrician"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/guard"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ac" />
+
+            <TextView
+                android:id="@+id/txtAcElectrician"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="960dp"
+                android:text="AcElectrician"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnAcElectrician"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtAcElectrician"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/buttons"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/ComputerOperator"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/AcElectrician"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/co" />
+
+            <TextView
+                android:id="@+id/txtComputerOperator"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="1080dp"
+                android:text="ComputerOperator"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnComputeroperator"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtComputerOperator"
+                android:layout_marginLeft="278dp"
+                android:background="@drawable/buttons"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/dumper"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/ComputerOperator"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/dumper" />
+
+            <TextView
+                android:id="@+id/txtdumper"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="1200dp"
+                android:text="Dumper"
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btndumper"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttons"
+                android:layout_below="@+id/txtdumper"
+                android:layout_marginLeft="278dp"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/interiorDesigner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/dumper"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/interiordesigner" />
+
+            <TextView
+                android:id="@+id/txtinteriordesigner"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="1320dp"
+                android:text="InteriorDesigner"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btninteriordesigner"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttons"
+                android:layout_below="@+id/txtinteriordesigner"
+                android:layout_marginLeft="278dp"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/mason"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/interiorDesigner"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mason" />
+
+            <TextView
+                android:id="@+id/txtmason"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginTop="1440dp"
+                android:text="Mason"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnmason"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtmason"
+                android:background="@drawable/buttons"
+                android:layout_marginLeft="278dp"
+                android:text="Hire" />
+
+            <ImageView
+                android:id="@+id/softwareInstaller"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/mason"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/softwareinstaller" />
+
+            <TextView
+                android:id="@+id/txtsoftwareinstaller"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="1560dp"
+                android:text="SoftwareInstaller"
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnsoftwareinstaller"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttons"
+                android:layout_below="@+id/txtsoftwareinstaller"
+                android:layout_marginLeft="278dp"
+                android:text="Hire" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

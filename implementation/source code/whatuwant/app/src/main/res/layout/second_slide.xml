@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSlide_4">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="From Here You Can Hire"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView7"
+        app:srcCompat="@drawable/carpenter"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imageView2"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/co"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/dumper"
+        tools:layout_editor_absoluteX="218dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/tutor"
+        android:layout_below="@id/imageView6"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView8"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="At cheap Rate and Get benefit of Our Service"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="493dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/textView7"
+        app:srcCompat="@drawable/electrician"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+</RelativeLayout>
